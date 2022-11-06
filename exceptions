@@ -1,0 +1,19 @@
+10 exceptions : 
+1.	NoSuchElementException
+2.	ElementNotVisibleException
+3.	NoSuchFrameException
+4.	NoAlertPresentException
+5.	NoSuchWindowException
+6.	SessionNotFoundException
+7.	StaleElementReferenceException
+8.	InvalidSelectorException
+9.	ElementNotSelectableException
+10.	TimeOutException
+
+
+
+NoSuchElementException
+
+This Exception occurs, when the locators (i.e. id / xpath / css selectors etc) we mentioned in the Selenium Program code is unable 
+to find the web element on the web page. There are two possibilities for getting this Exception, i.e. either we have provided a incorrect
+locator and trying to find the web element or we have provided correct locator, but the web element related to the locator is not available on the web page.
