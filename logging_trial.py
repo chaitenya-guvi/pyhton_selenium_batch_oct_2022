@@ -1,6 +1,8 @@
 
 """
 Url : https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
+url for formatter  :https://docs.python.org/3/library/logging.html#logrecord-attributes
+url for datetime  : https://docs.python.org/3/library/time.html#time.strftime
 
 Logging Demo 1
 Logging Levels
@@ -14,7 +16,9 @@ import logging
 
 # logger = logging
 #
-logging.basicConfig(filename="test.log",filemode='w', level=logging.ERROR) # append mode
+# logging.basicConfig(level=logging.ERROR) # append mode
+logging.basicConfig(format='%(asctime)s : %(levelname)s  : %(message)s ',
+                    datefmt='%m/%d/%Y %I:%M:%S %p',level=logging.ERROR) # append mode
 logging.warning("warning message")
 logging.info("info message")
 logging.error("error message")
