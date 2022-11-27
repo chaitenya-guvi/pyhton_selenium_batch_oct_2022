@@ -1,0 +1,37 @@
+intro to logging  :
+1. levels
+2. every level has a integer associated with it
+3. the syntax
+
+4. Logger  - instance of logging module
+5. handler - handles the logging object -
+				file handler , console handler (stream handler)
+6. formatter  -  hqandles the format of logs   -- formatter
+
+
+advance logging
+
+Default one :
+CRITICAL:root:This is a critical message
+
+New one :
+2022-11-26 14:48:12,559 : WARNING  : root : This is a warning message
+
+Latest :
+Sat 11/26/2022 02:51:54 PM : WARNING  : root : This is a warning message
+
+
+unit testing  :
+
+1. import unit test
+2. have "Test" prefixed to the class
+3. you have to inherit   "unittest.TestCase"
+4. every function within the clss will start with "test_"
+
+
+
+
+
+
+
+
