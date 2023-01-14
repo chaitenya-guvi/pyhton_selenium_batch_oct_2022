@@ -1,3 +1,29 @@
+Assignment 1 
+
+# write a python program check if both the strings are anagrams .
+word_1 = 'loop'
+word_2 = 'pool'
+anagram_function should return true
+
+
+word_1 = 'loop'
+word2_2 = 'pol'
+ anagram_function should return false
+
+anagrams :
+
+s1 = "listen"
+s2 = "silent"
+
+
+Assignment 2  : 
+https://www.w3schools.com/python/ --- read through it 
+
+Assignment 3 : 
+this is essential for framework 
+https://github.com/RaresCode/OrangeHRM
+
+
 Write a Python program to multiply all the items in a dictionary
 my_dict = {'data1':100,'data2':-5,'data3':2}
 output = -1000
@@ -10,3 +36,5 @@ output = 2500
 
 my_dict = {'data1':100,'data2':-5,'data3':-5,'data4':3}
 output - 7500
+
+
