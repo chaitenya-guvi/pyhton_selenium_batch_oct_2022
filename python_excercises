@@ -1,0 +1,2 @@
+my_dict = {'data1':100,'data2':-5,'data3':2}
+output = -1000
