@@ -1,2 +1,11 @@
 my_dict = {'data1':100,'data2':-5,'data3':2}
 output = -1000
+
+
+examples :  
+my_dict = {'data1':100,'data2':-5,'data3':-5}
+output = 2500
+
+
+my_dict = {'data1':100,'data2':-5,'data3':-5,data4':3}
+output - 7500
