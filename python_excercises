@@ -1,3 +1,12 @@
+Today question  ;
+
+Write a function that receives a
+List of strings,the function should return a new List that contains
+the words that consist of the exact same letters,the order of the words in the
+returned List should be like the order of the original.
+For example:List = ["pool", "hey", "why", "polo", "pol","ppol", "lopo", "apolo", "hye"]
+So the function should return exactly:ret = ['pool', 'hey', 'polo', 'lopo', 'hye']
+
 Assignment 1 
 
 # write a python program check if both the strings are anagrams .
